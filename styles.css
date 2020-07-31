@@ -1,0 +1,188 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat";
+
+    line-height: 4;
+}
+h2.testhead{
+    font-size: 3rem;
+    padding-top: 1.5rem;
+}
+h2.testimonial-text{
+    font-size: 3rem;
+    padding-top: 1.5rem;
+
+}
+h3{
+    font-family: "Montserrat"
+}
+p{
+    color: #8f8f8f;
+    font-size: 17px;
+    font-family: "Ubuntu"
+
+}
+#title{
+    background-color: #ff4c68;
+    padding: 3% 15%;
+    color: white;
+
+}
+
+
+.nano1{
+    height: 720px;
+    width: 80%;
+    border-radius: 40px;
+    position: relative;
+    left:  110px;
+
+
+}
+
+.nano2{
+    border-radius: 100px;
+    width: 300px;
+    margin: 20px 20px 150px 20px;
+
+}
+.testimonial-image{
+
+    border-radius: 100px;
+    width: 300px;
+    margin: 20px 20px 150px 20px;
+
+}
+.head{
+    font-size: 80px;
+}
+
+nav.navbar{
+    padding-bottom:4.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/* navigation bar */
+a.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:  normal;
+
+
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+/* buttons */
+.button{
+    margin: 5% 3% 5% 0;
+}
+
+#features{
+    padding: 7% 15%;
+
+
+
+    background-color:white;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.icon{
+    color: #ff4c68;
+    margin-bottom: 2rem;
+
+}
+.icon:hover{
+    color: #ef8172;
+}
+
+/* testimonials */
+
+#testimonials{
+
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #ef8172;
+}
+.carousel-item{
+    padding: 7% 15% 0% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.presslogo{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.columnprice{
+    padding: 3% 2% 3% 2%;
+}
+
+/* media query */
+@media (max-width:1111px) {
+    .nano1{
+        position: static;
+        width: 500px;
+    }
+    #title {
+        text-align: center;
+    }
+
+
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 100px;
+    height: 600px;
+}
+.foothead{
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: "Montserrat";
+}
+.lowbtn{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+.footicons{
+    padding: 15px;
+}
